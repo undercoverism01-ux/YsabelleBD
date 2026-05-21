@@ -51,7 +51,7 @@ const LIST_BOARDS = [
     names: [
       "Helen Villarin", "Amie Mamaril", "Jen Bendaña", "Jocelyn Sorilla",
       "Nida Arago", "Ampie Fuñe", "Jeanny Vergara", "Tita Honey Wayne",
-      "Tita Mary Shimizu", "Tita Sia", "Tita Jeanzy", "Gella Fortuno",
+      "Tita Mary Shimizu", "Tita Sia", "Anne Florentino", "Gella Fortuno",
       "Renalou Valdez", "Kuya Ryan", "Ninang Ronafe", "Ate Juvie",
       "Tito Jericho", "Tita Susie",
     ],
