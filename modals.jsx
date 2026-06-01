@@ -449,7 +449,7 @@ function DressCodeModal({ open, onClose, anim = "fade" }) {
   return (
     <ModalShell open={open} onClose={onClose} labelledBy="dc-title" anim={anim} cardClass="mdl-card-fit">
       <div className="dc-img-wrap">
-        <img src="assets/dresscode.compressed.webp" alt="Dress Code" className="dc-img" />
+        <img src="assets/dresscode.compressed.webp?v=4" alt="Dress Code" className="dc-img" />
       </div>
 
       <style>{`

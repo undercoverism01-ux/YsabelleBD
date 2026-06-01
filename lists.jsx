@@ -5,8 +5,8 @@ const LIST_BOARDS = [
     key: "roses",
     title: "18's Roses",
     names: [
-      "Lolo Edwin", "Jaylord Florentino", "Akiya Kikubo", "Arvin Alit",
-      "Dino Cajurao", "Mr. Kojiro", "Kearne Alit", "Bryce Alit",
+      "Lolo Edwin", "Jaylord Florentino", "Akiya Kikubo", "Kojiro Matsumoto",
+      "Dino Cajurao", "Arvin Alit", "Kearne Alit", "Bryce Alit",
       "Denzel Cajuro", "Yuehann Florentino", "Jefferson Florentino", "Ronielo Valdez",
       "Jairo Rio", "Clarence Mamaril", "Jian Cahanap", "Myles Dizon",
       "Justine Marmita", "Mark Amable",
@@ -51,7 +51,7 @@ const LIST_BOARDS = [
     names: [
       "Helen Villarin", "Amie Mamaril", "Jen Bendaña", "Jocelyn Sorilla",
       "Nida Arago", "Ampie Fuñe", "Jeanny Vergara", "Tita Honey Wayne",
-      "Tita Mary Shimizu", "Tita Sia", "Anne Florentino", "Gella Fortuno",
+      "Mary Shimizu", "Tita Sia", "Anne Florentino", "Leah Morimoto",
       "Renalou Valdez", "Kuya Ryan", "Ninang Ronafe", "Ate Juvie",
       "Tito Jericho", "Tita Susie",
     ],
