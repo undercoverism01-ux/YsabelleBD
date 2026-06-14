@@ -29,7 +29,7 @@ const LIST_BOARDS = [
     names: [
       "Willrose Cardinez", "Jie Cabiting", "Mavie Balberde", "Soel Saucelo",
       "Mariel Genoza", "Nicole Laborte", "Rosalyn Puod", "Yang Arciaga",
-      "Scarlett Gonzales", "Rihanna Caberos", "Julianna Sy", "Paris Icalla",
+      "Scarlett Gonzales", "Rihanna Caberos", "Julianna Sy", "Yvette Bartolome",
       "Arielle Dimaguila", "Margaret De guzman", "Rheanne Capitly", "Blaire Abracia",
       "Ashley Cuña", "Rowika Salonga",
     ],
