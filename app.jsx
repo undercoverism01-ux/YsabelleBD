@@ -26,6 +26,13 @@ const CD_Y = 13;
 const CD_W = 39;
 const CD_H = 5.6;
 
+// Google Maps clickable zone over the VENUE cell
+const VENUE_X = 60;
+const VENUE_Y = 10.6;
+const VENUE_W = 22;
+const VENUE_H = 4;
+const VENUE_MAP_URL = "https://maps.app.goo.gl/Toi7KXyNrTxb3dDJ7";
+
 const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
   "butterflies": true,
   "cursorTrail": true,
@@ -52,6 +59,7 @@ function App() {
       <div className="sheet">
         <img className="bg" src="assets/page-bg.compressed.jpg" alt="" />
         <div className="cd-slot" style={{ left: CD_X + "%", top: CD_Y + "%", width: CD_W + "%", height: CD_H + "%" }}><CountdownTimer /></div>
+        <a className="venue-link" href={VENUE_MAP_URL} target="_blank" rel="noopener noreferrer" onClick={(e) => { const w = window.open(VENUE_MAP_URL, "_blank", "noopener,noreferrer"); if (w) e.preventDefault(); }} aria-label="Open venue in Google Maps" style={{ left: VENUE_X + "%", top: VENUE_Y + "%", width: "75px", height: "60px" }}></a>
         <button className="rb rb-gallery" aria-label="Gallery" onClick={() => setGalleryOpen(true)} style={{ left: BTN_GALLERY_X + "%", top: BTN_GALLERY_Y + "%" }}>
           <span className="rb__bg" aria-hidden="true"></span>
           <span className="rb-label">GALLERY</span>
@@ -145,6 +153,19 @@ function App() {
           position: absolute;
           display: flex; align-items: center; justify-content: center;
           z-index: 2;
+        }
+        .venue-link {
+          position: absolute;
+          z-index: 4;
+          cursor: pointer;
+          border-radius: 10px;
+          background: transparent;
+          transition: background .25s ease, box-shadow .25s ease;
+          -webkit-tap-highlight-color: rgba(255,210,235,0.4);
+        }
+        .venue-link:hover {
+          background: rgba(255, 210, 235, 0.28);
+          box-shadow: 0 0 0 1px rgba(180,130,80,0.55) inset, 0 0 14px rgba(245,180,210,0.55);
         }
         /* Refined rectangular invitation buttons */
         .rb {
